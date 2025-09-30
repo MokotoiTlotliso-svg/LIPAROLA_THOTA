@@ -1,0 +1,153 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 ======================================================\
+AI MOBILE PHONE WORKLOAD PROTOTYPES\
+Domain: Low-Cost AI-Enabled Mobile Phones\
+Focus: Biometric Security & Intelligent Connectivity\
+\
+Group: Monokoa T.J, Mantsi R, Mokotoi T.M, Kobeli, \
+       Tjabafu, Mapola, Mokotjo R.M\
+\
+Course: Computer Engineering\
+Date: 30 September 2025\
+======================================================\
+\
+OVERVIEW\
+--------\
+This project contains three C++ prototypes that simulate key AI workloads for \
+low-cost mobile phones targeting African markets. These prototypes characterize \
+processor requirements for voice recognition, biometric security, and intelligent \
+connectivity features.\
+\
+FILES INCLUDED\
+--------------\
+1. voice_recognition.cpp    - Real-time Sesotho voice command processing\
+2. biometric_security.cpp   - Multi-factor authentication with context awareness  \
+3. intelligent_connectivity.cpp - Smart network selection based on environment\
+4. compile_all.sh          - Automatic compilation script\
+\
+COMPILATION INSTRUCTIONS\
+------------------------\
+\
+Method 1: Automatic Compilation (Recommended)\
+---------------------------------------------\
+1. Make the compile script executable:\
+   chmod +x compile_all.sh\
+\
+2. Run the compilation script:\
+   ./compile_all.sh\
+\
+This will create three executable files:\
+   - voice_recognition\
+   - biometric_security  \
+   - intelligent_connectivity\
+\
+Method 2: Manual Compilation\
+----------------------------\
+Compile each file individually:\
+\
+g++ -std=c++11 -o voice_recognition voice_recognition.cpp\
+g++ -std=c++11 -o biometric_security biometric_security.cpp  \
+g++ -std=c++11 -o intelligent_connectivity intelligent_connectivity.cpp\
+\
+RUNNING THE PROGRAMS\
+--------------------\
+\
+1. Voice Recognition Simulator:\
+   ./voice_recognition\
+   - Tests real-time audio processing with <100ms latency requirements\
+   - Simulates Sesotho keyword detection ("Feta", "Romela", "Thusa")\
+\
+2. Biometric Security Simulator:\
+   ./biometric_security\
+   - Tests multi-factor authentication (voice + PIN + context)\
+   - Demonstrates context-aware security policies\
+\
+3. Intelligent Connectivity Simulator:\
+   ./intelligent_connectivity\
+   - Tests smart network selection based on environment\
+   - Demonstrates battery-efficient scanning\
+\
+PROGRAM FEATURES\
+----------------\
+\
+- Each program includes:\
+- Interactive menu system\
+- Performance timing measurements\
+- Realistic workload simulation\
+- Error handling\
+- Clear output displays\
+\
+TECHNICAL REQUIREMENTS\
+----------------------\
+- C++11 compatible compiler (g++ recommended)\
+- Linux/Unix environment (or Windows with WSL/Cygwin)\
+- Minimum 100MB disk space\
+- Standard C++ libraries\
+\
+WORKLOAD CHARACTERISTICS\
+------------------------\
+\
+Voice Recognition:\
+\'95 Real-time processing (<100ms latency)\
+\'95 Matrix operations for neural networks\
+\'95 Compute-intensive workload\
+\
+Biometric Security:  \
+\'95 Multi-factor authentication\
+\'95 Context-aware decision making\
+\'95 Moderate latency tolerance (1-2 seconds)\
+\
+Intelligent Connectivity:\
+\'95 Rule-based decision logic\
+\'95 Environment scanning\
+\'95 Low computational requirements\
+\'95 Fast response times (<5ms)\
+\
+TESTING\
+-------\
+Each program includes multiple test scenarios:\
+- Voice: Real-time processing and keyword detection tests\
+- Security: User authentication and context awareness tests  \
+- Connectivity: Multiple environment scenarios and battery optimization\
+\
+EXPECTED OUTPUT\
+---------------\
+Each program will display:\
+- Timing measurements (latency checks)\
+- Success/failure indicators\
+- Workload characteristics\
+- Performance warnings when thresholds are exceeded\
+\
+TROUBLESHOOTING\
+---------------\
+1. Compilation errors: Ensure you're using C++11 standard\
+2. "Permission denied": Run chmod +x on the compile script\
+3. Missing includes: All necessary headers are included in the files\
+\
+PROJECT CONTEXT\
+---------------\
+These prototypes support the design of a custom RISC-V processor for \
+AI-enabled mobile phones in Africa. The workloads characterize processing \
+requirements for features like Sesotho voice commands, biometric security, \
+and intelligent connectivity suitable for emerging markets.\
+\
+SUBMISSION NOTES\
+----------------\
+- All code is original and developed for this project\
+- Files can be compiled and run independently\
+- Each prototype demonstrates distinct workload patterns\
+- Outputs inform processor ISA and microarchitecture decisions\
+\
+CONTACT\
+-------\
+For questions about these prototypes, contact the project team members.\
+\
+======================================================\
+END OF README\
+======================================================}
